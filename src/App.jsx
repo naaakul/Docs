@@ -4,7 +4,7 @@ import Foregrounud from './components/Foregrounud';
 
 function App() {
   return (
-    <div className='relative w-full h-screen bg-zinc-800'>
+    <div className='relative w-full h-screen bg-zinc-950'>
       <Background/>
       <Foregrounud />
     </div>

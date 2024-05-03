@@ -15,7 +15,7 @@ function Card({ data, reference }) {
       className="flex-shrink-0 w-60 p-5 h-72 rounded-[35px] overflow-hidden bg-zinc-900/90 relative text-white"
     >
       <FaRegFileAlt />
-      <p className="text-sm mt-5 leading-tight font-medium">{data.desc}</p>
+      <p className="text-sm mt-5 leading-tight">{data.desc}</p>
       <div className="footer absolute bottom-0 w-full left-0">
         <div className="flex items-center py-3 px-6 justify-between mb-2">
           <h5>{data.filesize}</h5>
