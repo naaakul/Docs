@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'gilroy';
-  src: url(../Gilroy-Regular.ttf) format('truetype');
+  src: url(../Gilroy-Bold.ttf) format('truetype');
 }
 
 *{
@@ -12,5 +12,5 @@ font-family: gilroy;
 }
 
 ::selection{
-  color: rgb(228, 173, 22);
+  color: #e4ad16;
 }
